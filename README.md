@@ -298,17 +298,16 @@ Stage 3 — Resources (on demand)
 
 ---
 
-## Framework Attribution
+## Framework Foundation
 
-The 71 rules are grounded in **Koray Tugberk Gübür's Semantic SEO Framework**, which is based on:
+The 71 rules are grounded in the **Semantic SEO Framework**, which is based on:
 
-- **8 years** of research across **3,000+ Google patents**
-- Applied to **120+ websites** with **30+ documented case studies**
-- Notable result: **Encazip.com** grew organic traffic by **155% in 6 months**
+- Extensive research across **3,000+ Google patents**
+- Applied to **120+ websites** with documented case studies
 
 The framework emphasizes entity-based content optimization, context vectors, dependency tree management, and vocabulary richness — moving beyond traditional keyword-focused SEO toward semantic understanding.
 
-> Learn more about the Semantic SEO framework at [Koray Tugberk Gübür's work](https://www.koraytugberk.com/).
+> 📖 Learn more about the Semantic SEO framework and how these rules apply in practice: [Semantic SEO Content Writing](https://hasnainayaz.com/blog/semantic-seo-content-writing)
 
 ---
 
