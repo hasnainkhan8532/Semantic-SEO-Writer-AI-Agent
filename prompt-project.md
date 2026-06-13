@@ -97,6 +97,7 @@ All generated content in Section 2 must adhere to these mandatory rules:
 - Do not use analogies. Replace all comparisons with direct, factual statements (Rule 5).
 - Be certain. Use definite, factual statements. Avoid possibility language (Rule 13).
 - Be specific. Use exact counts and categories instead of vague descriptors like "many" or "various" (Rule 14, Rule 66).
+- Never use em dashes. Use commas, colons, hyphens, or parentheses instead. Em dashes are a strong AI-writing signal and must be avoided entirely.
 
 **Entity and Context Rules:**
 - Focus on entities and their attributes, not just keywords (Rule 27).

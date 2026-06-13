@@ -63,6 +63,7 @@ Write the blog content following these mandatory rules:
 - Do not use analogies. Replace all comparisons with direct, factual statements (Rule 5).
 - Be certain. Use definite, factual statements. Avoid possibility language (Rule 13).
 - Be specific. Use exact counts and categories instead of vague descriptors like "many" or "various" (Rule 14, Rule 66).
+- Never use em dashes. Use commas, colons, hyphens, or parentheses instead. Em dashes are a strong AI-writing signal and must be avoided entirely.
 
 **Pronouns & References:**
 - Every pronoun must clearly refer to a specific entity. No coreference errors (Rule 7).
@@ -94,7 +95,7 @@ Write the blog content following these mandatory rules:
 - Naturally integrate secondary keywords.
 
 ### 3.3 Definition Section
-- Include a specific heading: `## [Primary Keyword] Defined` or `### [Primary Keyword] — Definition and Overview` (Rule 61). Do NOT phrase it as a question.
+- Include a specific heading: `## [Primary Keyword] Defined` or `### [Primary Keyword] - Definition and Overview` (Rule 61). Do NOT phrase it as a question.
 - Follow it immediately with a concise, 40-50 word definitional paragraph to capture featured snippets (Rule 1, Rule 60).
 - Begin the paragraph with a direct, factual answer stating the definition, then list factors or attributes (Rule 2, Rule 21, Rule 50).
 
@@ -148,7 +149,7 @@ Before finalizing, verify the blog content passes these checks:
 - [ ] Abbreviations defined in parentheses on first mention.
 - [ ] Same key n-grams appear in introduction and conclusion.
 - [ ] Tense and modality are consistent between headings and their supporting text.
-- [ ] All headings are declarative statements or noun phrases — no questions used as headings.
+- [ ] All headings are declarative statements or noun phrases, not questions used as headings.
 - [ ] Code snippets (if applicable) are wrapped in fenced code blocks with correct language identifiers.
 - [ ] First sentence under each heading matches the heading format.
 
@@ -158,12 +159,12 @@ Before finalizing, verify the blog content passes these checks:
 
 Deliver the final output in this exact format:
 
-1. **Keyword & SEO Strategy Table** — Primary keyword, secondary keywords, URL slug.
+1. **Keyword & SEO Strategy Table**: Primary keyword, secondary keywords, URL slug.
 2. **Blog Data Fields**:
    - **Blog Title**
    - **Excerpt**
    - **Meta Description**
    - **Tags**
    - **Read Time**
-3. **Full Content** — Complete article with proper heading hierarchy (H2-H6).
-4. **Quality Checklist Results** — Mark each checklist item as passed or failed.
+3. **Full Content**: Complete article with proper heading hierarchy (H2-H6).
+4. **Quality Checklist Results**: Mark each checklist item as passed or failed.

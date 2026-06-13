@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Semantic SEO Writer — AI Agent Skill</h1>
+  <h1 align="center">Semantic SEO Writer - AI Agent Skill</h1>
   <p align="center">
     <strong>71 research-backed rules for writing SEO-optimized, semantically rich content with AI agents</strong>
   </p>
@@ -19,7 +19,7 @@
 
 This repository contains a **portable AI agent skill** that enforces 71 semantic SEO rules whenever an AI coding agent writes, edits, reviews, or optimizes web content. It also includes 3 companion prompts that structure the content generation workflow for blog posts, project pages, and data-driven SEO articles.
 
-Most AI agents produce generic text that lacks the semantic depth and structural precision modern search engines require. This skill solves that problem by packaging research-backed writing rules — grounded in Google patents, Named Entity Recognition (NER), and proven case studies — into a format any compatible AI agent can load and execute on demand.
+Most AI agents produce generic text that lacks the semantic depth and structural precision modern search engines require. This skill solves that problem by packaging research-backed writing rules, grounded in Google patents, Named Entity Recognition (NER), and proven case studies, into a format any compatible AI agent can load and execute on demand.
 
 ### ✨ Key Feature: Ubersuggest MCP Integration
 This toolkit now includes native integration for **Ubersuggest via MCP (Model Context Protocol)**. By using the dedicated `ubersuggest-prompt-blog.md`, your AI agent can pull live SEO data (keyword volume, domain authority, backlink benchmarks, and SERP competitor analysis) directly into its context *before* generating content, ensuring every article is grounded in real-time search metrics.
@@ -33,7 +33,7 @@ This toolkit now includes native integration for **Ubersuggest via MCP (Model Co
 
 ---
 
-## The 71 Rules — Three Categories
+## The 71 Rules - Three Categories
 
 The rules are organized into 3 categories. Each category addresses a distinct layer of content quality that search engines evaluate during indexing and ranking.
 
@@ -149,9 +149,9 @@ semantic-seo-writer-skill/
 ├── semantic-seo-writer/                         # The AI Agent Skill
 │   ├── SKILL.md                                 # Core skill definition (271 lines)
 │   ├── references/
-│   │   ├── content-optimization.md              # Rules 1–20 — full details (342 lines)
-│   │   ├── semantic-seo.md                      # Rules 21–45 — full details (456 lines)
-│   │   └── advanced-techniques.md               # Rules 46–71 — full details (464 lines)
+│   │   ├── content-optimization.md              # Rules 1-20, full details (342 lines)
+│   │   ├── semantic-seo.md                      # Rules 21-45, full details (456 lines)
+│   │   └── advanced-techniques.md               # Rules 46-71, full details (464 lines)
 │   └── assets/
 │       └── checklist.md                         # Quick-reference 71-rule checklist (86 lines)
 ```
@@ -168,7 +168,7 @@ Clone the repository and copy the skill + prompts into your AI agent's skills di
 git clone https://github.com/hasnainkhan8532/Semantic-SEO-Writer-AI-Agent.git
 ```
 
-### VS Code — GitHub Copilot
+### VS Code - GitHub Copilot
 
 ```bash
 # From your project root
@@ -211,7 +211,7 @@ cp -r semantic-seo-writer-skill/semantic-seo-writer /path/to/cursor/skills/
 
 This repository includes 3 companion prompts designed to work alongside the skill. Each prompt embeds explicit rule references (e.g., "Rule 27", "Rule 41") and includes an inline quality checklist.
 
-### [`prompt-blog.md`](prompt-blog.md) — SEO Blog Post Writing Prompt
+### [`prompt-blog.md`](prompt-blog.md) - SEO Blog Post Writing Prompt
 
 Use this prompt to generate complete SEO-optimized blog posts. The prompt enforces:
 
@@ -230,7 +230,7 @@ Paste the contents of prompt-blog.md into your AI agent, replacing [Insert your 
 
 ---
 
-### [`prompt-project.md`](prompt-project.md) — SEO Project/Portfolio Page Prompt
+### [`prompt-project.md`](prompt-project.md) - SEO Project/Portfolio Page Prompt
 
 Use this prompt to generate SEO-optimized portfolio or project case study pages. The prompt enforces:
 
@@ -246,7 +246,7 @@ Paste the contents of prompt-project.md into your AI agent, replacing [Insert yo
 
 ---
 
-### [`ubersuggest-prompt-blog.md`](ubersuggest-prompt-blog.md) — SEO Blog Prompt with Ubersuggest MCP
+### [`ubersuggest-prompt-blog.md`](ubersuggest-prompt-blog.md) - SEO Blog Prompt with Ubersuggest MCP
 
 An enhanced version of the blog prompt that integrates **Ubersuggest MCP tools** for real-time SEO data research before content generation. This prompt executes:
 
@@ -273,21 +273,21 @@ Replace [Insert your topic] and [Insert your domain] with your details.
 
 ---
 
-## How the Skill Works — Progressive Disclosure
+## How the Skill Works - Progressive Disclosure
 
 The skill uses a **3-stage progressive disclosure** architecture to keep the AI agent's context window efficient:
 
 ```
-Stage 1 — Metadata (~100 tokens)
+Stage 1 - Metadata (~100 tokens)
 ├── name: semantic-seo-writer
 └── description: "Comprehensive SEO content writing..."
     ↓ Agent activates skill when task matches description
 
-Stage 2 — Instructions (<5,000 tokens)
-└── SKILL.md body loads — condensed summaries of all 71 rules
+Stage 2 - Instructions (<5,000 tokens)
+└── SKILL.md body loads, condensed summaries of all 71 rules
     ↓ Agent applies rules during content generation
 
-Stage 3 — Resources (on demand)
+Stage 3 - Resources (on demand)
 ├── references/content-optimization.md    → loaded when Rules 1–20 need detail
 ├── references/semantic-seo.md           → loaded when Rules 21–45 need detail
 ├── references/advanced-techniques.md    → loaded when Rules 46–71 need detail
@@ -305,7 +305,7 @@ The 71 rules are grounded in the **Semantic SEO Framework**, which is based on:
 - Extensive research across **3,000+ Google patents**
 - Applied to **120+ websites** with documented case studies
 
-The framework emphasizes entity-based content optimization, context vectors, dependency tree management, and vocabulary richness — moving beyond traditional keyword-focused SEO toward semantic understanding.
+The framework emphasizes entity-based content optimization, context vectors, dependency tree management, and vocabulary richness, moving beyond traditional keyword-focused SEO toward semantic understanding.
 
 > 📖 Learn more about the Semantic SEO framework and how these rules apply in practice: [Semantic SEO Content Writing](https://hasnainayaz.com/blog/semantic-seo-content-writing)
 
@@ -320,7 +320,7 @@ A condensed checklist of all 71 rules is available at [`semantic-seo-writer/asse
 cat semantic-seo-writer/assets/checklist.md
 ```
 
-The checklist is organized by category with checkboxes for each rule — ideal for pre-publish content audits.
+The checklist is organized by category with checkboxes for each rule, ideal for pre-publish content audits.
 
 ---
 
@@ -335,7 +335,7 @@ The checklist is organized by category with checkboxes for each rule — ideal f
 
 ## License
 
-This project is licensed under a **Proprietary License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under a **Proprietary License**. See the [LICENSE](LICENSE) file for details.
 
 **You are free to:**
 - View and read the repository contents for learning
@@ -350,5 +350,5 @@ This project is licensed under a **Proprietary License** — see the [LICENSE](L
 ---
 
 <p align="center">
-  <sub>Built with ❤️ by <a href="https://hasnainayaz.com/">Hasnain Ayaz</a> — Powered by Semantic SEO principles</sub>
+  <sub>Built with ❤️ by <a href="https://hasnainayaz.com/">Hasnain Ayaz</a> | Powered by Semantic SEO principles</sub>
 </p>
