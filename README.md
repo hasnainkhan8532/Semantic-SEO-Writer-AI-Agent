@@ -154,10 +154,6 @@ semantic-seo-writer-skill/
 │   │   └── advanced-techniques.md               # Rules 46–71 — full details (464 lines)
 │   └── assets/
 │       └── checklist.md                         # Quick-reference 71-rule checklist (86 lines)
-│
-└── examples/
-    ├── blog-output-sample.md                    # Sample blog post output
-    └── project-output-sample.md                 # Sample project page output
 ```
 
 ---
@@ -299,24 +295,6 @@ Stage 3 — Resources (on demand)
 ```
 
 **Why this matters**: The main `SKILL.md` stays under 300 lines. Detailed reference material (1,300+ lines) loads only when needed. This prevents context window overflow while keeping the full depth of 71 rules accessible.
-
----
-
-## Example Output
-
-The [`examples/`](examples/) directory contains sample outputs generated using this skill and prompts:
-
-- **[`blog-output-sample.md`](examples/blog-output-sample.md)** — A complete blog post about SEO content writing skills, generated using `prompt-blog.md`
-- **[`project-output-sample.md`](examples/project-output-sample.md)** — A complete project page output, including keyword strategy, entity mapping, and quality checklist results
-
-Each sample demonstrates:
-- Semantic triple construction in practice
-- Proper heading hierarchy (H2–H6)
-- Featured snippet-optimized definition sections
-- Authoritative source citations without outbound links
-- Consistent tense and modality matching
-- Numeric specificity over vague quantifiers
-- Quality checklist verification results
 
 ---
 
