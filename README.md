@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/rules-71-brightgreen?style=flat-square" alt="71 Rules" />
     <img src="https://img.shields.io/badge/license-Proprietary-red?style=flat-square" alt="License" />
     <img src="https://img.shields.io/badge/framework-Semantic%20SEO-orange?style=flat-square" alt="Semantic SEO" />
+    <img src="https://img.shields.io/badge/integration-Ubersuggest%20MCP-yellow?style=flat-square" alt="Ubersuggest MCP Integration" />
     <img src="https://img.shields.io/badge/author-Hasnain%20Ayaz-purple?style=flat-square" alt="Author" />
   </p>
 </p>
@@ -19,6 +20,9 @@
 This repository contains a **portable AI agent skill** that enforces 71 semantic SEO rules whenever an AI coding agent writes, edits, reviews, or optimizes web content. It also includes 3 companion prompts that structure the content generation workflow for blog posts, project pages, and data-driven SEO articles.
 
 Most AI agents produce generic text that lacks the semantic depth and structural precision modern search engines require. This skill solves that problem by packaging research-backed writing rules — grounded in Google patents, Named Entity Recognition (NER), and proven case studies — into a format any compatible AI agent can load and execute on demand.
+
+### ✨ Key Feature: Ubersuggest MCP Integration
+This toolkit now includes native integration for **Ubersuggest via MCP (Model Context Protocol)**. By using the dedicated `ubersuggest-prompt-blog.md`, your AI agent can pull live SEO data (keyword volume, domain authority, backlink benchmarks, and SERP competitor analysis) directly into its context *before* generating content, ensuring every article is grounded in real-time search metrics.
 
 ### Who Is This For?
 
